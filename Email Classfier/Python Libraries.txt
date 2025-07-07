@@ -1,0 +1,13 @@
+| Library                                                  | Purpose                                                                   |
+| -------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **`pandas`**                                             | To load, manipulate, and display the dataset (`.csv` files, tables, etc.) |
+| **`re`**                                                 | Regular expressions for cleaning and preprocessing text                   |
+| **`nltk`**                                               | Natural Language Toolkit for stopword removal and stemming                |
+| **`sklearn`** *(scikit-learn)*                           | ML pipeline: feature extraction, model training, evaluation               |
+| **`nltk.corpus.stopwords`**                              | Pre-defined list of English stopwords                                     |
+| **`nltk.stem.PorterStemmer`**                            | Word stemming to reduce words to base/root form                           |
+| **`TfidfVectorizer`** *(from sklearn)*                   | Convert text into TF-IDF feature vectors                                  |
+| **`train_test_split`** *(from sklearn.model\_selection)* | Split dataset into training/testing subsets                               |
+| **`MultinomialNB`** *(from sklearn.naive\_bayes)*        | Naive Bayes classifier for text data                                      |
+| **`LinearSVC`** *(from sklearn.svm)*                     | Optional: Support Vector Machine classifier                               |
+| **`classification_report`** *(from sklearn.metrics)*     | Summarize model precision, recall, F1 score                               |
